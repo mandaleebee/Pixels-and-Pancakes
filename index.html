@@ -102,11 +102,6 @@
                 <button class="button resume shadow" type="submit">Resume</button>
                 </form>
            </section>
-           <section>
-           		<p>"I would run out of fingers and toes if I had to count the number of times that Amanda has spent weekends, late nights, and early mornings working to help with anything that needed to be completed within our ever-changing and fast-paced company. Not only does she have amazing creative talents and incredible technical skills but she is one of the most selfless teammates that I have ever encountered. </p>
-
-<p>A perfect example of Amanda's diligence and hard work is when we were set to launch our company's website on January 8, 2008. We hired a company to complete the website and that company, unfortunately, dropped the ball. Amanda came in and completed the website; she and I were on the phone with each other and the hosting company until 2 am on the day of the launch. At this point, Amanda was not even working for our company and did this as a favor for me. That is not only the kind of employee that Amanda is but, more importantly, is the kind of person that she is."</p>
-           </section>
            <br style="clear:left;" />
 		</div>
     </div>
@@ -141,13 +136,15 @@
                             </li>
                 	</ul>
                 </article>
+                <div class="form">
                 <form id="contact-form" action="email-form.php" method="post" target="_self" onSubmit="return checkemail(this)">
-                	<div><input name="first" id="first" placeholder="First Name" /></div>
-                    		<div><input name="last" id="last" placeholder="Last Name" /></div>
-                            <div><input name="email" id="email" placeholder="Email Address" /></div>
-                        	<div><textarea name="message" id="message" placeholder="Message/Comments"></textarea></div>
-                        	<div><input type="submit" value="Send" /></div>
+                	<div><input name="first" class="first" placeholder="First Name" /></div>
+                    <div><input name="last" class="last" placeholder="Last Name" /></div>
+                    <div><input name="email" class="email" placeholder="Email Address" /></div>
+                    <div class="message"><textarea name="message" placeholder="Message/Comments"></textarea></div>
+                    <div class="submit"><input type="submit" value="Send" /></div>
                 </form>
+                </div>
                 
            </section>
            <br style="clear:left;" />
