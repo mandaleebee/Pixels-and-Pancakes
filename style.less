@@ -149,6 +149,11 @@ a:hover{
 			border:1px solid #a1a1a3;
 			cursor:pointer;
 		}
+		button.jump:focus{
+			-moz-box-shadow:    none;
+ 			-webkit-box-shadow: none;
+  			box-shadow:         none;
+		}
 	}
 	.logo-small, .social-media{
 		float:left;
@@ -319,9 +324,12 @@ a:hover{
 		float:left;
 	}
 	form{
-		
+		max-width:72.21%;
 		margin:25px 0 0;
 		position:relative;
+	}
+	form div{
+		float:left;
 	}
 	input, textarea{
 		padding:15px;
