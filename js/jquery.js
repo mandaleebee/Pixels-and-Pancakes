@@ -49,14 +49,9 @@ $(document).ready(function() {
   $('html, body').animate({scrollTop:475}, 'slow');
  });
   $('.portfolio, .jump').click(function() {
-  $('html, body').animate({scrollTop:668}, 'slow');
+  $('html, body').animate({scrollTop:900}, 'slow');
+ });
+ $('.contact').click(function() {
+  $('html, body').animate({scrollTop: $(document).height()}, 'slow');
  });
 });
-
-// Enlarge Gallery Thumbs to 80% Width of Window
-
-$(document).ready(function() { 
- $('.gallery').click(function() {
-	 $('#gallery').show('fade', 'slow');
- }); 
-}); 
